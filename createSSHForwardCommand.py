@@ -10,6 +10,6 @@ command += "8787:localhost:8787 "
 
 command += "bstanwell@subsurf"
 
-with open("sshCommand.sh", "w") as file:
+with open("sshCommand.ps1", "w") as file:
     file.write(command)
 
