@@ -1,3 +1,6 @@
+wget https://raw.githubusercontent.com/Soviet-Steve/daskNode/main/createDaskWorker.sh -O createDaskWorker.sh
+wget https://raw.githubusercontent.com/Soviet-Steve/daskNode/main/createSSHForwardCommand.py -O createSSHForwardCommand.py
+
 python pip install virtualenv
 
 python -m venv .venv
